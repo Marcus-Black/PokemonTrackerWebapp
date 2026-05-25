@@ -1,0 +1,12 @@
+{
+  "name": "pokemontracker",
+  "version": "1.0.0",
+  "description": "Frontend/Backend for tracking personal pokemon sealed collection",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
