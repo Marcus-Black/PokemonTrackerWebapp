@@ -1,0 +1,23 @@
+FILE FOR COPLIOT COMMANDS I HAVE USED
+---------------------------------------
+
+! (*ENTER SHELL MODE*)
+
+.github/skills/${skill name}/SKILL.md -> name,description,steps (*SKILLS*)
+
+/innit (for creating a overall synopsis of the repo)
+
+(holding shift and pressing tab twice) Automate mode (allowing copilot to work autonomously for more complex tasks)
+
+/delegate
+
+/models (check which model is used)
+
+copilot --resume (to resume older session)
+
+/context (show context)
+/compact (to compact session)
+
+/mcp add (command for adding new mcp server to copilot functionality) (mcp -> model context protocol, similar to an api for copilot to interact with outside services)
+(mcp is how agents can interact with other tools/services and understand context)
+
