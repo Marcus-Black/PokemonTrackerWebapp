@@ -1,19 +1,64 @@
 const eventEmitter = require('events');
 const http = require('http');
-const superagent = require('superagent');
 const conversion = require('./helperFunctions/conversion.js');
+const express = require("express");
+const router = require("./routes/app.js");
+const app = express();
+app.use(router);
+const Port = 8000;
 
-const cronJob = new eventEmitter();
-const ticktime = (1000 * 60);
-
-const server = http.createServer((req, res) => {
-res.end('listening for changes');
+app.listen((Port || 8000), () => {
+    console.log(`server is started up on port ${Port}`);
 });
-server.listen(8000, () => {
-    console.log('Server is now online');
-});
 
-conversion(`${__dirname}/export.csv`);
+
+// const server = http.createServer((req, res) => {
+// res.end('listening for changes');
+// });
+// server.listen(8000, () => {
+//     console.log('Server is now online');
+// });
+
+// conversion(`${__dirname}/export.csv`);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//----------------------------------------------------------------------------------------------------------
 
 // async function loop(x) {
 // console.log(`Pretend this is async operation: #${x}`);

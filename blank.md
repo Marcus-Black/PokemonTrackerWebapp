@@ -1,1 +1,0 @@
-Category,Set,Product Name,Card Number,Rarity,Variance,Grade,Card Condition,Quantity
